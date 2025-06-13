@@ -29,7 +29,7 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 # ✅ Allowed Hosts
 # ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='trish-backend.onrender.com,trishelite.com,localhost,127.0.0.1', cast=lambda v: [s.strip() for s in v.split(',')])
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['trish-backend.onrender.com', '127.0.0.1']
 
 # ✅ CORS Configuration
 CORS_ALLOW_ALL_ORIGINS = False  # Disable wildcard
