@@ -70,8 +70,6 @@ CSRF_COOKIE_SAMESITE = 'Lax'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
 
 # Application definition
 
