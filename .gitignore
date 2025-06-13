@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+# __pycache__/
+# *.py[cod]
+# *$py.class
+
+# Virtual environment
+venv/
+env/
+*.venv
+*.env
+
+# Django settings / security
+.env
+*.secret
+# *.json
+
+# Database files
+
+# # Migrations (Optional: Keep if you want to track migrations)
+# **/migrations/*.pyc
+# **/migrations/*.py
+# !*/migrations/__init__.py
+
+# Logs
+logs/
+*.log
+*.out
+
+# Static and media files
+staticfiles/
+
+# Local IDE/Editor files
+.vscode/
+.idea/
+*.iml
+
+# macOS and Windows system files
+.DS_Store
+Thumbs.db
+
+# Pip dependencies
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Compiled C extensions
+*.so
